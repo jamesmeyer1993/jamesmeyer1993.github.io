@@ -1,9 +1,23 @@
 /* placeholder comment */
 
+/* CSS applied on elements */
 body {
   font-family: "Noto Mono";
 }
 
 nav {
   font-variant: small-caps;
+}
+
+/* CSS applied on ids */
+
+/* CSS applied on classes */
+
+/* Bootstrap override */
+.btn {
+  border-radius: 0%;
+}
+
+.form-control {
+  border-radius: 0%;
 }
