@@ -1,5 +1,9 @@
 /* placeholder comment */
 
 body {
-  font-family: monospace;
+  font-family: "Noto Mono";
+}
+
+nav {
+  font-variant: small-caps;
 }
