@@ -10,6 +10,10 @@ nav {
 }
 
 /* CSS applied on ids */
+#main-header {
+  width: 100%;
+  margin: 2% 2% 0% 15%;
+}
 
 /* CSS applied on classes */
 
@@ -20,4 +24,9 @@ nav {
 
 .form-control {
   border-radius: 0%;
+}
+
+.nav-link {
+  margin-left: 20px;
+  margin-right: 20px;
 }
