@@ -13,6 +13,23 @@ nav {
   font-variant: small-caps;
 }
 
+.span-1 {
+  display: inline-block;
+  background-color: black;
+  height: 2px;
+  width: 512px;
+  transform: rotate(45deg);
+}
+
+.span-2 {
+  display: inline-block;
+  background-color: black;
+  height: 2px;
+  width: 512px;
+  transform: rotate(90deg);
+}
+
+
 /* CSS applied on ids */
 
 /* CSS applied on classes */
@@ -90,10 +107,13 @@ nav {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 /*
     *     *   navigation link classes   *     *     *
 */
-
 .nav-link {
   font-size: 1.5rem;
 }
@@ -109,7 +129,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: #4d4d4d;
+  color: #DBDBEC;
   text-decoration: underline;
 }
 
@@ -119,19 +139,22 @@ nav {
 }
 
 .nav-link-panel {
-  height: 128px;
+  height: 86px;
   border-style: solid;
-  border-width: 2px;
-  border-color: #000000;
-  border-radius: 5px;
+  border-width: 2px 2px 0 0;
+  border-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 8px 8px 8px;
 }
 
 .nav-link-panel:hover {
-  background-color: #a2a2a2;
   border-width: 4px;
   transform: scale(1.05);
+  background-color:#797997;
 }
 
+.mutable-hide {
+  display: none;
+}
 /*
     *     *   header classes   *     *     *
 */
@@ -162,19 +185,6 @@ nav {
 /*
     *     *   shapes   *     *     *
 */
-.force-center {
-  padding-left: calc( 50% - (128px / 2) );
-  padding-right: calc( 50% - (128px / 2) );
-}
-
-.circle-xs {
-  height: 128px;
-  width: 128px;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 2px;
-}
-
 .arch {
   border: 2px solid #000; /* the 'strokes' of the arc */
   display: inline-block;
