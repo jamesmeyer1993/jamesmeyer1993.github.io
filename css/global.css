@@ -13,23 +13,6 @@ nav {
   font-variant: small-caps;
 }
 
-.span-1 {
-  display: inline-block;
-  background-color: black;
-  height: 2px;
-  width: 512px;
-  transform: rotate(45deg);
-}
-
-.span-2 {
-  display: inline-block;
-  background-color: black;
-  height: 2px;
-  width: 512px;
-  transform: rotate(90deg);
-}
-
-
 /* CSS applied on ids */
 
 /* CSS applied on classes */
@@ -198,7 +181,7 @@ nav {
   border-right-color: transparent;
 }
 
-.rotate-45 {
+/* .rotate-45 {
   transform: rotate(45deg);
 }
 
@@ -212,4 +195,4 @@ nav {
 
 .rotate-315 {
   transform: rotate(315deg);
-}
+} */
