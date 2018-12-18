@@ -71,44 +71,6 @@
     <!-- Footer moves the reader back to the header -->
   </footer>
 
-  <script>
-    "use strict";
-    const btns = [
-      "inlink-0", // contract Request
-      "inlink-1", // projects
-      "inlink-2", // blog
-      "inlink-3", // about
-    ];
-
-    const rows_cols = [
-      ["r0-c0", "r0-c1", "r0-c2", "r0-c3", "r0-c4"],
-      ["r1-c0", "r1-c1", "r1-c2", "r1-c3"],
-      ["r2-c0", "r2-c1", "r2-c2", "r2-c3", "r2-c4"]
-    ];
-
-    function listener(event){
-      var source = event;
-      source = source.originalTarget;
-      source = source.id;
-
-      switch(source){
-        case btns[0]:
-          console.log("0");
-          break;
-        case btns[1]:
-          console.log("1");
-          break;
-        case btns[2]:
-          console.log("2");
-          break;
-        case btns[3]:
-          console.log("3");
-          break;
-      }
-    }
-    //
-    // btns.forEach(function(btn){
-    //   document.getElementById(btn).addEventListener("mouseover", listener, false);
-    // });
-  </script>
+  <script src="js/jquery-3.3.1.slim.js"></script>
+  
 <bod>
