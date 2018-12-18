@@ -130,7 +130,7 @@ nav {
 
 .nav-link:hover {
   color: #DBDBEC;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .nav-link:active {
